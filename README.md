@@ -9,6 +9,7 @@ conda create -n SAM python=3.8
 conda activate SAM
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install PyYAML
+pip install matplotlib
 ```
 
 ### Test
